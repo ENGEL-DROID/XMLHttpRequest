@@ -29,3 +29,7 @@ button:hover {
 #contenedor {
     height: 80%;
 }
+img {
+    width: 100%;
+    height: auto;
+}
