@@ -10,7 +10,8 @@
         <script>
             $(document).ready(function() {
                 $("a").click(function() {
-                    $("#contenedor").load("generales.html");
+                    var urlDirex= $(this).attr("href");
+                    $("#contenedor").load(urlDirex);
                     return false;
                 })
             })
