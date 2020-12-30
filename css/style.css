@@ -1,0 +1,31 @@
+body {
+    padding: 5%;
+    color: #ACC7B4;
+    font-family: sans-serif;
+    background-color: #331B3F;
+}
+h1, h3 {
+    color:#ACC7B4;
+}
+hr {
+    border: 1px solid #ACC7B4;
+}
+table {
+    width: 100%;
+    height: 60vh;
+}
+#botones td {
+    display: inline;
+}
+button {
+    height: 4vh;
+    background-color: #ACC7B4;
+    border: 0px;
+    margin-right: 2vw;
+}
+button:hover {
+    background-color: #8aa391;
+}
+#contenedor {
+    height: 80%;
+}
